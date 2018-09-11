@@ -6,7 +6,11 @@ import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.widget.Toast;
-
+/**
+*
+* @autor Liza
+*
+ **/
 public class MainActivity extends AppCompatActivity implements RecyclerAdapter.ItemClickListener {
 
     private static final int[] itemsArray = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12};
